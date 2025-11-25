@@ -1,9 +1,16 @@
 @import "tailwindcss";
 
 
-@theme {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.active
+{
+    font-weight: bold;
+}
+:root {
+  
+    /* --color-primary: #2563eb; */
+    --color-primary: #5937e0; /* Valeurs HSL */
+    --color-secondary: #facc15;
+    --color-neutral: #fafafa;
+    --color-neutral2:  #111827;
+    --font-text1:  "roboto";
 }
