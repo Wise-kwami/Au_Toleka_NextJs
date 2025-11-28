@@ -1,4 +1,9 @@
-import Header from "../components/Header";
+import Header from "@components/Header";
+import Footer from "@components/Footer";
+import BannerLogoCar from "@components/BannerLogoCar";
+import HeroFooter from "@components/HeroFooter";
+import HeroAppMobile from "@components/HeroAppMobile";
+import Image from "next/image";
 export default function Home() {
   return (
     <div className=" container mx-auto flex flex-col">
@@ -210,10 +215,22 @@ export default function Home() {
       <div className="box-car flex flex-col gap-20 ml-20 mr-20 mb-15 mt-15 border-box">
         <div className="title-btn flex justify-between ">
           <h1 className="font-bold text-4xl">Choose the car that suits you</h1>
-
-          <p className="font-bold text-4xl">View all</p>
+          <div className="flex flex-row items-center justify-center gap-2 cursor-pointer">
+            <p className="font-bold text-xl">View all</p>
+            <Image
+              src="./images/arrow-right.svg"
+              alt="fleche pointant vers la droite"
+              height={30}
+              width={30}
+            />
+          </div>
         </div>
       </div>
+      <HeroFooter />
+      <HeroAppMobile />
+      <div className="hero-search "></div>
+      <BannerLogoCar />
+      <Footer />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
+
 const Header = () => {
   return (
     <div className="flex p-6 h-1/8 w-full items-center justify-between  ">
@@ -14,6 +15,7 @@ const Header = () => {
         />
         <h1 className="font-bold text-4xl">Car Rental</h1>
       </div>
+      
 
       <div className="nav">
         <ul className="flex gap-6 font-light">

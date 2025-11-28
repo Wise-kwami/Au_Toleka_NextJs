@@ -8,9 +8,10 @@
 @theme {
   
     /* --color-primary: #2563eb; */
-    --color-primary: #5937e0; /* Valeurs HSL */
-    --color-secondary: #facc15;
+    --color-primary: #5937e0 ; /* Valeurs HSL */
+    --color-secondary: #ff9e0cff;
+
     --color-neutral: #fafafa;
-    --color-neutral2:  #111827;
+    --color-neutral2:  gray-500;
     --font-text1:  "roboto";
 }
